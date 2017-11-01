@@ -1,6 +1,6 @@
 spring:
   application:
-    name: compute-service
+    name: compute-serviceA
 server:
   port: 2222
 eureka:
