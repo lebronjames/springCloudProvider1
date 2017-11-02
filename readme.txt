@@ -9,10 +9,10 @@ http://localhost:2222/add?a=1&b=2
 4) 系统参数配置
 spring:
   application:
-    name: compute-service
+    name: compute-serviceB
 server:
-  port: 2222
+  port: 2223
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.5.2.241:1111/eureka/
+      defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
